@@ -18,3 +18,11 @@ a="a string"
 print(type(a))			-->string
 a=print					--这是合法的
 a(type(a))				-->function
+
+
+--函数在Lua中为“一等公民”的类型
+
+--nil：一种类型，只有一个值nil，将nil赋给全局变量=删除它
+--boolean：有2个可选值，false，true，任何值都可以视为条件，false和nil为假，其他为真
+
+--number：用于表示实数
